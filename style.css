@@ -1,0 +1,15 @@
+﻿
+.intro {
+    padding: 0px;
+    background-color: azure;
+    background-image: url("/images/bg-hero-mobile.svg");
+    width: auto;
+    height: 600px;
+}
+
+/*body {
+    background-color: azure;
+    height: 100px; 
+}*/
+
+
