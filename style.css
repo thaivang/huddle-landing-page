@@ -1,10 +1,36 @@
 ﻿
-.intro {
-    padding: 0px;
+/*when screen is 375 or smaller(mobile) background will execute*/
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: white;
+        background-image: url("/images/bg-hero-mobile.svg");
+        width: 300px;
+    }
+}
+
+/*when desktop is greater than 375 background will execute*/
+@media only screen and (min-width: 376px) {
+    body {
+        background-color: white;
+        background-image: url("/images/bg-hero-desktop.svg");
+    }
+}
+
+/*spacing removed from the top by having body inherit these props*/ 
+/*.intro-background, body{ 
     background-color: azure;
     background-image: url("/images/bg-hero-mobile.svg");
     width: auto;
     height: 600px;
+    margin: 0px;
+    padding: 0px;
+}*/
+
+#logo, img {
+    background-size: cover;
+    height: 30px;
+    width: 150px;
+    padding: 10px;
 }
 
 /*body {
