@@ -18,6 +18,28 @@
     
 }*/
 
+button.btn {
+    display: inline-block;
+    /*max-width: 100%;*/
+    height: 30px;
+    border-radius: 14px;
+    box-shadow: 0px 2px 5px 1px #ccc;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    padding: 10px 20px 22px;
+    background-color: white;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+button.btn2 {
+    margin: auto;
+    text-align: center;
+}
+
 /*when screen is 375 or smaller(mobile) background will execute*/
 @media only screen and (max-width: 375px) {
     body {
@@ -26,26 +48,11 @@
         background-color: azure;
     }
 
-     .button {
-        display: inline-block;
-        max-width: 100%;
-        height: 30px;
-        border-radius: 14px;
-        /*box-shadow: 0px 0px 0px 0.4px #ccc;*/
-        float: right;
-        margin: 5px;
-        padding: 15px 15px;
-        background-color: white;
-        font-size: 12px;
-        text-align: center;
-       
-        
-    }
-
     .huddle-logo {
         display: inline-block;
-        height: 30px;
-        width: 150px;
+        margin-top: 20px;
+        height: 20px;
+        width: 90px;
         padding: 10px 5px 5px 10px;
     }
 }
@@ -53,10 +60,8 @@
 /*when desktop is greater than 375 background will execute*/
 @media only screen and (min-width: 376px) {
     body {
-        background-color: white;
         background-image: url("/images/bg-hero-desktop.svg");
         background-color: azure;
-        
     }
 
     .button {
@@ -65,5 +70,16 @@
     }
 }
 
+.text1 {
+    margin: 60px 50px 50px 50px; /*top, right, left, bottom*/
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.text2 {
+    margin: 60px 50px 50px 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
